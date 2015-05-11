@@ -34,13 +34,13 @@ map <Leader>c :MBEClose<cr>
 map <Leader>t :MBEToggle<cr>
       
 " keyboard control
-noremap <C-Down>  <C-W>j
-noremap <C-Up>    <C-W>k
-noremap <C-Left>  <C-W>h
-noremap <C-Right> <C-W>l
+noremap <C-J>  <C-W>j
+noremap <C-K>  <C-W>k
+noremap <C-H>  <C-W>h
+noremap <C-L>  <C-W>l
                 
 noremap <C-Right>   :MBEbn<CR>
-noremap <C-Left>     :MBEbp<CR>
+noremap <C-Left>    :MBEbp<CR>
 " configuration
 " ===============================
 " ========= End Vundle ==========
