@@ -1,37 +1,21 @@
-" ===============================
-" ========= Vundle ==============
-" ===============================
-set nocompatible
-filetype off
-
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
-
-" The bundles you install will be listed here
-
-filetype plugin indent on
-
-" The rest of your config follows here
-" ======== Powerline ============
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-" Powerline setup
-let g:Powerline_symbols = 'fancy'
-set t_Co=256
-set laststatus=2
-
+"load all plugins with vundle
+source ~/.vim/vimrc/my_vundle.vim
 
 " ===============================
 " ========= General =============
 " ===============================
+" cold folding
+set foldmethod=indent
+set foldlevel=99
+" ctrl-s to save
+inoremap <C-S> <Esc>:w<CR>i
+vnoremap <C-S> <Esc>:w<CR>v
+nnoremap <C-S> :w<CR>
 
 " line numbers
 set number
 
-" NOT WORKING YET  highlight excess line length
+" highlight excess line length
 augroup vimrc_autocmds
     autocmd!
     " highlight characters past column 120
@@ -49,3 +33,7 @@ filetype plugin indent on
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+" execute python file
+nnoremap <buffer> <F5> :w<CR>:exec '!python' shellescape(@%, 1)<cr>
+inoremap <F5> <Esc><F5> 
