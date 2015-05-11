@@ -4,6 +4,8 @@ source ~/.vim/vimrc/my_vundle.vim
 " ===============================
 " ========= General =============
 " ===============================
+" syntax highlighting
+syntax on
 " cold folding
 set foldmethod=indent
 set foldlevel=99
