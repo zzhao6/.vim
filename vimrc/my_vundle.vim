@@ -39,8 +39,8 @@ noremap <C-Up>    <C-W>k
 noremap <C-Left>  <C-W>h
 noremap <C-Right> <C-W>l
                 
-noremap <C-PAGEDOWN>   :MBEbn<CR>
-noremap <C-PAGEUP>     :MBEbp<CR>
+noremap <C-Right>   :MBEbn<CR>
+noremap <C-Left>     :MBEbp<CR>
 " configuration
 " ===============================
 " ========= End Vundle ==========
