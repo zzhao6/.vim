@@ -42,6 +42,8 @@ noremap <C-L>  <C-W>l
 noremap <C-Right>   :MBEbn<CR>
 noremap <C-Left>    :MBEbp<CR>
 " configuration
+" ======== Jedi-Vim =============
+Bundle 'davidhalter/jedi-vim'
 " ===============================
 " ========= End Vundle ==========
 " ===============================

@@ -1,14 +1,26 @@
+" ===============================
+" ========= Vundle ==============
+" ===============================
+
 "load all plugins with vundle
 source ~/.vim/vimrc/my_vundle.vim
+
 
 " ===============================
 " ========= General =============
 " ===============================
 " syntax highlighting
 syntax on
+
 " cold folding
 set foldmethod=indent
 set foldlevel=99
+" space to fold/unfold code
+inoremap <F10> <C-O>za
+nnoremap <F10> za
+vnoremap <F10> zf
+
+
 " ctrl-s to save
 inoremap <C-S> <Esc>:w<CR>i
 vnoremap <C-S> <Esc>:w<CR>v
