@@ -29,8 +29,9 @@ set laststatus=2
 
 Bundle 'fholgado/minibufexpl.vim'
 " Global mappings
-map <Leader>e :MBEOpen<cr>
-map <Leader>c :MBEClose<cr>
+" only keep one functionality here, <leader>c is used as globally clear the  terminal
+" map <Leader>e :MBEOpen<cr>
+" map <Leader>c :MBEClose<cr>
 map <Leader>t :MBEToggle<cr>
       
 " keyboard control
@@ -39,11 +40,16 @@ noremap <C-K>  <C-W>k
 noremap <C-H>  <C-W>h
 noremap <C-L>  <C-W>l
                 
-noremap <C-Right>   :MBEbn<CR>
-noremap <C-Left>    :MBEbp<CR>
+nnoremap <C-Right>   :MBEbn<CR>
+nnoremap <C-Left>    :MBEbp<CR>
+inoremap <C-Right>   <Esc>:MBEbn<CR>
+inoremap <C-Left>    <Esc>:MBEbp<CR>
 " configuration
 " ======== Jedi-Vim =============
-Bundle 'davidhalter/jedi-vim'
+" Discarded, use supertab instead
+" Bundle 'davidhalter/jedi-vim'
+" ======== Supertab ============
+Bundle 'ervandew/supertab'
 " ===============================
 " ========= End Vundle ==========
 " ===============================

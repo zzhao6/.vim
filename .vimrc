@@ -22,7 +22,7 @@ vnoremap <F10> zf
 
 
 " ctrl-s to save
-inoremap <C-S> <Esc>:w<CR>i
+inoremap <C-S> <Esc>:w<CR>
 vnoremap <C-S> <Esc>:w<CR>v
 nnoremap <C-S> :w<CR>
 
@@ -49,5 +49,10 @@ set shiftwidth=4
 set expandtab
 
 " execute python file
-nnoremap <buffer> <F5> :w<CR>:exec '!python' shellescape(@%, 1)<cr>
-inoremap <F5> <Esc><F5> 
+nnoremap <buffer> <F5> :w<CR>:exec '!python3' shellescape(@%, 1)<cr>
+inoremap <buffer> <F5> <Esc>:w<CR>:exec '!python3' shellescape(@%, 1)<cr>
+
+
+" clear terminal
+nnoremap <Leader>c :!clear<CR>
+inoremap <Leader>c :!clear<CR>
