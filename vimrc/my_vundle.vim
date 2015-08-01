@@ -52,6 +52,8 @@ inoremap <C-Left>    <Esc>:w<CR>:MBEbp<CR>
 Bundle 'ervandew/supertab'
 " ======== Supertab ============
 Bundle 'TaskList.vim'
+" ======== ============
+Bundle 'suan/vim-instant-markdown' 
 " ===============================
 " ========= End Vundle ==========
 " ===============================
