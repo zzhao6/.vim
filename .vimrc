@@ -9,6 +9,8 @@ source ~/.vim/vimrc/my_vundle.vim
 " ===============================
 " ========= General =============
 " ===============================
+" background
+set background=dark
 " syntax highlighting
 syntax on
 
@@ -34,6 +36,9 @@ nnoremap <C-S> :w<CR>
 
 " line numbers
 set number
+
+" highlight search
+:noremap <F4> :set hlsearch! hlsearch?<CR>
 
 " highlight excess line length
 augroup vimrc_autocmds
