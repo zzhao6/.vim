@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/zhe/Documents/tmpPy'
 let g:netrw_dirhist_2='/Users/Zhe/.vim/vimrc'
 let g:netrw_dirhist_3='/Users/Zhe/Documents/GitRepo/HanlonOptionDB/pysrc'
 let g:netrw_dirhist_4='/home/zhe/.vim'
 let g:netrw_dirhist_5='/home/zhe/Documents/GitRepo/HanlonOptionDB/symbols'
+let g:netrw_dirhist_6='/home/zhe/.vim/bundle'
+let g:netrw_dirhist_7='/home/zhe/.vim/bundle/minibufexpl.vim'
+let g:netrw_dirhist_8='/home/zhe/.vim/bundle/nerdcommenter'

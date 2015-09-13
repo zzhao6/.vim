@@ -31,9 +31,7 @@ Bundle 'fholgado/minibufexpl.vim'
 " Global mappings
 " only keep one functionality here, <leader>c is used as globally clear the  terminal
 map <Leader>e :MBEToggle<cr>
-" map <Leader>c :MBEClose<cr>
-" map <Leader>t :MBEToggle<cr>
-      
+
 " keyboard control
 noremap <C-J>  <C-W>j
 noremap <C-K>  <C-W>k
@@ -50,10 +48,10 @@ inoremap <C-Left>    <Esc>:w<CR>:MBEbp<CR>
 " Bundle 'davidhalter/jedi-vim'
 " ======== Supertab ============
 Bundle 'ervandew/supertab'
-" ======== Supertab ============
+" ======== TaskList ============
 Bundle 'TaskList.vim'
-" ======== ============
-Bundle 'suan/vim-instant-markdown' 
+" ======== commenter ============
+Bundle 'scrooloose/nerdcommenter'
 " ===============================
 " ========= End Vundle ==========
 " ===============================

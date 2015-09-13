@@ -65,4 +65,4 @@ inoremap <buffer> <F5> <Esc>:w<CR>:exec '!python3' shellescape(@%, 1)<cr>
 
 
 " clear terminal
-nnoremap <Leader>c :!clear<CR><CR>:echo "Console cleared!"<CR>
+nnoremap <C-c> :!clear<CR><CR>:echo "Console cleared!"<CR>
