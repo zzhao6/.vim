@@ -24,6 +24,8 @@ set t_Co=256
 set laststatus=2
 
 
+" ======== Powerline Fonts ============
+Bundle 'powerline/fonts'
 
 " ======== Minibufexpl ==========
 
