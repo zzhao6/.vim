@@ -14,6 +14,10 @@ set background=dark
 " syntax highlighting
 syntax on
 
+" Highlight Cursor Line
+set cursorline
+hi CursorLine cterm=NONE ctermbg=darkred ctermfg=white
+
 " disable ctrl-z terminates the process
 " inoremap <C-Z> <Space>
 " nnoremap <C-Z> <Space>
