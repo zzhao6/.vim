@@ -44,6 +44,10 @@ set number
 " highlight search
 :noremap <F4> :set hlsearch! hlsearch?<CR>
 
+" set delete the previous word
+inoremap <C-w> <C-\><C-o>dB
+inoremap <C-BS> <C-\><C-o>db
+
 " highlight excess line length
 augroup vimrc_autocmds
     autocmd!
