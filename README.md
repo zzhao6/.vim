@@ -13,3 +13,10 @@ source ~/.vim/.vimrc
 " automatically reload vimrc
 autocmd BufWritePost .vimrc source %
 ```
+* run your vim, type the following to install all plugins.
+```
+:BundleList
+:PluginInstall
+```
+
+* All plugins and fonts should be installed automatically.
