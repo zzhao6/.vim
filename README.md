@@ -20,3 +20,14 @@ autocmd BufWritePost .vimrc source %
 ```
 
 * All plugins and fonts should be installed automatically.
+
+* Shotcut Keys:
+ctrl + left/right arrow: change tab (bufexpl)
+<leader>cc: comment line or block (nerd commenter)
+<leader>c<space>: uncomment line or block (nerd commenter)
+
+
+
+
+ctrl + s: save current file
+ctrl + c: clear console
