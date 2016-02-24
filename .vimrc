@@ -1,4 +1,9 @@
 " ===============================
+" ========= numpad ==============
+" ===============================
+source ~/.vim/vimrc/numpad.vim
+
+" ===============================
 " ========= python ==============
 " ===============================
 source ~/.vim/vimrc/python.vim
@@ -58,12 +63,10 @@ set number
 inoremap <C-w> <C-\><C-o>dB
 inoremap <C-BS> <C-\><C-o>db
 
-<<<<<<< HEAD
 
 " clear terminal
 nnoremap <C-c> :!clear<CR><CR>:echo "Console cleared!"<CR>
 
-=======
 " highlight excess line length
 augroup vimrc_autocmds
     autocmd!
@@ -72,22 +75,3 @@ augroup vimrc_autocmds
     autocmd FileType python match Excess /\%120v.*/
     autocmd FileType python set nowrap
     augroup END
-
-" ===============================
-" ========= Python ==============
-" ===============================
-
-"" tab width
-"filetype plugin indent on
-"set tabstop=4
-"set shiftwidth=4
-"set expandtab
-
-"" execute python file
-"nnoremap <buffer> <F5> :w<CR>:exec '!python3' shellescape(@%, 1)<cr>
-"inoremap <buffer> <F5> <Esc>:w<CR>:exec '!python3' shellescape(@%, 1)<cr>
-
-
-"" clear terminal
-"nnoremap <C-c> :!clear<CR><CR>:echo "Console cleared!"<CR>
->>>>>>> 2187a489becc7c0155c9433184c44c675fe587e7

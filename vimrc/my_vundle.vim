@@ -44,6 +44,11 @@ nnoremap <C-Right>   :w<CR>:MBEbn<CR>
 nnoremap <C-Left>    :w<CR>:MBEbp<CR>
 inoremap <C-Right>   <Esc>:w<CR>:MBEbn<CR>
 inoremap <C-Left>    <Esc>:w<CR>:MBEbp<CR>
+
+nnoremap <C-]>   :w<CR>:MBEbn<CR>
+nnoremap <C-[>   :w<CR>:MBEbp<CR>
+inoremap <C-]>   <Esc>:w<CR>:MBEbn<CR>
+inoremap <C-[>   <Esc>:w<CR>:MBEbp<CR>
 " configuration
 " ======== Jedi-Vim =============
 " Discarded, use supertab instead
