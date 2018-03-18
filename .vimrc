@@ -56,6 +56,9 @@ nnoremap <C-S> :w<CR>
 " line numbers
 set number
 
+" use tab for makefile
+autocmd FileType make setlocal noexpandtab
+
 " highlight search
 :noremap <F4> :set hlsearch! hlsearch?<CR>
 
