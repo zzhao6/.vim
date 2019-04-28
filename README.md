@@ -20,11 +20,9 @@ autocmd BufWritePost .vimrc source %
 ```
 
 * Install powerline fonts
-> # install
 > git clone https://github.com/powerline/fonts.git --depth=1
 > cd fonts
 > ./install.sh
-> # remove fonts
 > cd ..
 > rm -rf fonts
 
