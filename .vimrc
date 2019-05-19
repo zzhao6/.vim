@@ -4,6 +4,11 @@
 source ~/.vim/vimrc/numpad.vim
 
 " ===============================
+" ========= bash ================
+" ===============================
+au BufRead,BufNewFile .bashzz set filetype=sh
+
+" ===============================
 " ========= python ==============
 " ===============================
 source ~/.vim/vimrc/python.vim
