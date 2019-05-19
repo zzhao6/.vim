@@ -28,6 +28,8 @@ source ~/.vim/vimrc/py.vim
 set background=dark
 " syntax highlighting
 syntax on
+" bash
+autocmd BufNewFile,BufRead *.bashzz set syntax=sh
 
 " Highlight Cursor Line
 set cursorline
