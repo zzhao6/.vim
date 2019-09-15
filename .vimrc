@@ -6,7 +6,7 @@ source ~/.vim/vimrc/numpad.vim
 " ===============================
 " ========= bash ================
 " ===============================
-au BufRead,BufNewFile .bashzz set filetype=sh
+au BufRead,BufNewFile .zzbash set filetype=sh
 
 " ===============================
 " ========= python ==============

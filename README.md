@@ -27,6 +27,10 @@ cd fonts
 cd ..
 rm -rf fonts
 ```
+```
+sudo apt-get install fonts-powerline
+```
+Restart terminal.
 
 * All plugins and fonts should be installed automatically.
 
