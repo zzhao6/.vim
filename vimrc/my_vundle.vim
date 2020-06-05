@@ -16,16 +16,8 @@ Bundle 'gmarik/vundle'
 filetype plugin indent on
 
 " The rest of your config follows here
-" ======== Powerline ============
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-" Powerline setup
-let g:Powerline_symbols = 'fancy'
-set t_Co=256
-set laststatus=2
-
-
-" ======== Powerline Fonts ============
-Bundle 'powerline/fonts'
+" ======== Airline ============
+Bundle 'vim-airline/vim-airline'
 
 " ======== Minibufexpl ==========
 
